@@ -19,7 +19,7 @@ dropout = 0.1
 # ----------------------------------------------------- #
 
 # ------------------ Load Dataset ------------------ #
-with open('/Users/dheerajkattinti/Downloads/harrypotter.txt', 'r', encoding='utf-8') as f:
+with open('harrypotter.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
 # Use a small subset for quicker training
